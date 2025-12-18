@@ -105,13 +105,6 @@ A[👨‍💻 Code Push / Pull Request] --> B[🤖 GitHub Actions Triggered] -->
 
 ## 🔐 GitHub Secrets Required 🔑
 
-```bash
-Secret                      Description             
------------------------     ----------------------- 
-🔑 `DOCKERHUB_USERNAME`     Docker Hub username     
-🔐 `DOCKERHUB_TOKEN`        Docker Hub access token 
-
-```
 <table style="width:100%; border-collapse: collapse; text-align: center; font-family: Arial, sans-serif;">
   <thead>
     <tr style="background-color:#0d1117; color:#ffffff;">
