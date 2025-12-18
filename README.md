@@ -53,3 +53,36 @@ https://github.com/kirantushar10/CI-CD-With-Docker-Hub
 ```
 
 ---
+## 🌶️ Flask Application
+
+This project uses a minimal Flask web application that exposes a single HTTP endpoint (/). When accessed, it returns a simple response, making it ideal for demonstrating containerization and CI/CD workflows without unnecessary complexity. The application runs on port 5000 and is configured to work seamlessly inside a Docker container.
+
+## 🧪 Testing with Pytest
+
+Pytest is used to validate the application behavior automatically during the CI pipeline.
+
+The test ensures:
+
+✅ The application starts correctly
+
+✅ The root endpoint (/) responds successfully
+
+✅ The returned response matches the expected output
+
+This guarantees that only tested and verified code proceeds to the Docker build stage.
+
+## 🐳 Docker Configuration
+
+The application is fully containerized using Docker, ensuring consistency across environments.
+
+Key highlights:
+
+📦 Uses a lightweight Python base image
+
+⚙️ Installs required dependencies
+
+🔓 Exposes port 5000 for external access
+
+▶️ Automatically starts the Flask app when the container runs
+
+Docker enables portable deployment and smooth integration with the CI/CD pipeline.
