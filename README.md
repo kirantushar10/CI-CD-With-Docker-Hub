@@ -63,11 +63,11 @@ Pytest is used to validate the application behavior automatically during the CI 
 
 The test ensures:
 
-✅ The application starts correctly
+- ✅ The application starts correctly
 
-✅ The root endpoint (/) responds successfully
+- ✅ The root endpoint (/) responds successfully
 
-✅ The returned response matches the expected output
+- ✅ The returned response matches the expected output
 
 This guarantees that only tested and verified code proceeds to the Docker build stage.
 
@@ -77,12 +77,12 @@ The application is fully containerized using Docker, ensuring consistency across
 
 Key highlights:
 
-📦 Uses a lightweight Python base image
+- 📦 Uses a lightweight Python base image
 
-⚙️ Installs required dependencies
+- ⚙️ Installs required dependencies
 
-🔓 Exposes port 5000 for external access
+- 🔓 Exposes port 5000 for external access
 
-▶️ Automatically starts the Flask app when the container runs
+- ▶️ Automatically starts the Flask app when the container runs
 
 Docker enables portable deployment and smooth integration with the CI/CD pipeline.
