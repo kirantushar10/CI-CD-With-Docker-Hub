@@ -33,3 +33,23 @@ https://github.com/kirantushar10/CI-CD-With-Docker-Hub
 - 📦 **Docker** Hub for storing and distributing Docker images
 
 *The pipeline automatically tests, builds, and deploys the application whenever changes are pushed to the main branch, ensuring reliable, consistent, and production-ready deployments.*
+
+---
+
+## 📁 Project Structure
+
+```bash
+.
+├── .github/
+│   └── workflows/
+│       └── cicd.yml        # 🤖 GitHub Actions pipeline
+├── app.py                 # 🌶️ Flask application
+├── test_app.py            # 🧪 Pytest test cases
+├── requirements.txt       # 📦 Python dependencies
+├── DockerFile             # 🐳 Docker build config
+├── README.md              # 📘 Documentation
+└── .gitignore
+
+```
+
+---
