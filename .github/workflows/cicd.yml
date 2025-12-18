@@ -49,7 +49,7 @@ jobs:
       uses: docker/build-push-action@v4
       with:
         context: .
-        file: ./Dockerfile
+        file: ./DockerFile
         push: true
         tags: ${{ secrets.DOCKERHUB_USERNAME }}/flasktest-app:latest
     
