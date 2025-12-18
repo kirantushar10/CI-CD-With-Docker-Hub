@@ -102,3 +102,13 @@ A[👨‍💻 Code Push / Pull Request] --> B[🤖 GitHub Actions Triggered] -->
 ├── C -->|Tests Fail ❌| E[⛔ Pipeline Stops]
 └── D --> F[📦 Docker Image Available on Docker Hub]
 ```
+
+## 🔐 GitHub Secrets Required 🔑
+
+```bash
+| Secret                  | Description             |
+| ----------------------- | ----------------------- |
+| 🔑 `DOCKERHUB_USERNAME` | Docker Hub username     |
+| 🔐 `DOCKERHUB_TOKEN`    | Docker Hub access token |
+
+```
