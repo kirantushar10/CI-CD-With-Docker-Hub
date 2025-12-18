@@ -103,6 +103,8 @@ A[👨‍💻 Code Push / Pull Request] --> B[🤖 GitHub Actions Triggered] -->
 └── D --> F[📦 Docker Image Available on Docker Hub]
 ```
 
+---
+
 ## 🔐 GitHub Secrets Required 🔑
 
 <table style="width:100%; border-collapse: collapse; text-align: center; font-family: Arial, sans-serif;">
