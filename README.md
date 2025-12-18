@@ -87,14 +87,15 @@ Key highlights:
 
 Docker enables portable deployment and smooth integration with the CI/CD pipeline.
 
+---
+
 ## 🤖 CI/CD Pipeline
 
-This project uses GitHub Actions to implement a two-stage CI/CD pipeline that ensures code quality and automated Docker image delivery.
-### 🧪 Job 1: Build & Test (Continuous Integration)
+### *🧪 Job 1: Build & Test (Continuous Integration)*
 ```bash
 A[👨‍💻 Code Push / Pull Request] --> B[🤖 GitHub Actions Triggered] --> C[🧪 Job 1: Build & Test]
 ```
-### 🐳 Job 2: Build & Push Docker Image (Continuous Deployment)
+### *🐳 Job 2: Build & Push Docker Image (Continuous Deployment)*
 ```bash
 .
 ├── C -->|Tests Pass ✅| D[🐳 Job 2: Build & Push Docker Image]
